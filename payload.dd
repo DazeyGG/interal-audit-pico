@@ -1,0 +1,18 @@
+REM Title: USB Phishing Awareness Training Device
+REM Author:     S3it4
+REM Created originally for a school product and became a product we could sell.
+REM
+REM Description: This will open Command Prompt, and send and email to specified target.
+REM Note: You will need to set up AWS SES, AWS IAM, AWS CLI in order for this to work, A video will be made to walk through this.
+REM Target:      Windows, can be easily modified to work on any OS
+REM Version:   1.0
+REM Catagory:  Awareness Training
+DELAY 2000
+GUI r
+DELAY 500
+STRING cmd
+ENTER
+DELAY 2000
+STRING aws ses send-email --from blankblank@gmail.com --destination ToAddresses=blank@gmail.com --message "Subject={Data='Failed Awareness Test'},Body={Text={Data='The user of the computer %computername%'}}"
+ENTER
+GUI DOWNARROW
