@@ -60,7 +60,9 @@ Then under 'Security credentials' Tab scroll down and click 'Create access key' 
 
 Then click 'Create access key' and note down the Accesss Key and the Secret Access Key in a text document.
 
-**Retrun to SES Tab** and select the region you would like to use (Example: us-west-1)
+**Retrun to SES Tab** 
+
+Select the region you would like to use (Example: us-west-1)
 
 Click on the 'Verified identities' button on the left panel, click on the Sender email you have verified.
 
