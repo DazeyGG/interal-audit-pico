@@ -74,6 +74,8 @@ Then under 'Actions' drop down and select 'ses:SendEmail' and click 'Next'
 
 You can name the policy if you want, then click 'Save changes'
 
-Then create another identity for the Reciever Address (Example: blank@gmail.com)
+Then create another identity for the Reciever Address (Example: blank@gmail.com) This is usually your personal address.
 
 Verify the address but there is no need to make the policies or anything.
+
+Once both are authenticated then you can edit the code accordingly and begin using.
